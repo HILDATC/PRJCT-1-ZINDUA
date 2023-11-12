@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #ff00ff, #4002fa),
+    url("./fauna\fauna\pexels-andrew-neel-3178786.jpg");
+  background-size: cover;
+  background-blend-mode: multiply;
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: rgb(255, 255, 255);
+  padding: 1em;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+main {
+  padding: 20px;
+}
+
+h1 {
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.5
+  ); /* Added background color with alpha (transparency) */
+  padding: 10px;
+  color: antiquewhite;
+}
+
+.paragraph {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: antiquewhite;
+  padding: 10px;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 1em;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.socials {
+  margin-top: 10px;
+}
+
+.socials a {
+  margin-right: 10px;
+  text-decoration: none;
+  color: rgb(19, 83, 168);
+}
